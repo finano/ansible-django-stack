@@ -1,7 +1,7 @@
 ---
 
 - name: Provision a DEBUG-ADS-1 {{ application_name }} db server
-  hosts: 192.168.108.137
+#  hosts: dbservers
   sudo: yes
   sudo_user: root
   remote_user: root
