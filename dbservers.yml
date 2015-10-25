@@ -3,9 +3,9 @@
 - name: Provision a DEBUG-ADS-1 {{ application_name }} db server
 #  hosts: dbservers
   hosts: all
-  sudo: yes
-  sudo_user: root
-  remote_user: root
+#  sudo: yes
+#  sudo_user: root
+#  remote_user: root
   vars:
     - update_apt_cache: yes
   vars_files:
