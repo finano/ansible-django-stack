@@ -1,6 +1,6 @@
 ---
 
-- name: Setup the Git repo
+- name: DEBUG-RWT-1 Setup the Git repo
   git: repo={{ git_repo }}
        version="{{ git_branch }}"
        dest={{ project_path }}
