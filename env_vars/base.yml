@@ -1,14 +1,19 @@
 ---
 
-git_repo: https://github.com/finano/youtube-audio-dl.git
+#git_repo: https://github.com/finano/youtube-audio-dl.git
+#
+#project_name: youtube-audio-dl
+#application_name: youtubeadl
 
-project_name: youtube-audio-dl
-application_name: youtubeadl
-
+#git_repo: https://github.com/willover/glucose-tracker.git
+#
 #project_name: glucose-tracker
 #application_name: glucosetracker
-#
-#git_repo: https://github.com/willover/glucose-tracker.git
+
+git_repo: https://github.com/jcalazan/django-project-template.git
+
+project_name: project_name
+application_name: project_name
 
 ssl_dest_dir: /etc/ssl
 
