@@ -10,10 +10,15 @@
 #project_name: glucose-tracker
 #application_name: glucosetracker
 
-git_repo: https://github.com/jcalazan/django-project-template.git
+#git_repo: https://github.com/jcalazan/django-project-template.git
+#
+#project_name: project_name
+#application_name: project_name
 
-project_name: project_name
-application_name: project_name
+git_repo: https://github.com/jcalazan/willover/example_django_project.git
+
+project_name: example_django_project
+application_name: exampledjangoproject
 
 ssl_dest_dir: /etc/ssl
 
