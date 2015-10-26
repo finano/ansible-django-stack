@@ -15,7 +15,7 @@
 #project_name: project_name
 #application_name: project_name
 
-git_repo: https://github.com/jcalazan/willover/example_django_project.git
+git_repo: https://github.com/willover/example_django_project.git
 
 project_name: example_django_project
 application_name: exampledjangoproject
