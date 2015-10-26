@@ -18,7 +18,7 @@
 git_repo: https://github.com/willover/example_django_project.git
 
 project_name: example_django_project
-application_name: exampledjangoproject
+application_name: example_django_project
 
 ssl_dest_dir: /etc/ssl
 
