@@ -35,7 +35,7 @@
 
 - name: create an initial [admin] superuser
   django_manage:
-    command: "createsuperuser --noinput --username=admin --email=z_djangoadmin@systems.co.uk"
+    command: "createsuperuser --noinput --username=admin2 --email=z_djangoadmin@systems.co.uk"
     app_path: "{{ project_path }}"
     virtualenv: "{{ virtualenv_path }}"
     settings: "{{ django_settings_file }}"
