@@ -34,7 +34,6 @@
   tags: django.collectstatic
 
 - name: create an initial [admin] superuser
-# Create an initial superuser.
   django_manage:
     command="createsuperuser --noinput --username=admin --email=admin@example.com"
     app_path={{ django_dir }}
