@@ -36,7 +36,9 @@
 - name: create an initial [admin] superuser
   django_manage:
     command="createsuperuser --noinput --username=admin --email=admin@example.com"
-    app_path={{ django_dir }}
+    app_path: "{{ project_path }}"
+    virtualenv: "{{ virtualenv_path }}"
+    settings: "{{ django_settings_file }}"
   environment: django_environment
   when: run_django_createsuperuser is defined and run_django_createsuperuser
   tags: django.createsuperuser
