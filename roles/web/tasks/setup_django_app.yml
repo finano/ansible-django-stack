@@ -33,5 +33,11 @@
   when: run_django_collectstatic is defined and run_django_collectstatic
   tags: django.collectstatic
 
-- name: create django admin superuser
-  shell: echo "from django.contrib.auth.models import User; User.objects.create_superuser('myadmin', 'myemail@example.com', 'hunter2')" | python manage.py shell
+- name: create an initial [admin] superuser
+# Create an initial superuser.
+  django_manage:
+    command="createsuperuser --noinput --username=admin --email=admin@example.com"
+    app_path={{ django_dir }}
+  environment: django_environment
+  when: run_django_createsuperuser is defined and run_django_createsuperuser
+  tags: django.createsuperuser
